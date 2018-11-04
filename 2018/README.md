@@ -11,3 +11,6 @@ NaNoGenMo 2018
 
 
 * https://chunmi.github.io/ChunML.github.io/project/Creating-Text-Generator-Using-Recurrent-Neural-Network/
+
+
+source ~/.virtualenv/opencv/local/bin/activate
