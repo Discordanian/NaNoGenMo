@@ -6,11 +6,11 @@ mkdir ~/.virtualenvs
 pwd
 virtualenv -p python3.6 ~/.virtualenvs/p36
 brew install python3.6
-  972  python3 --version
-  973  brew unlink python
-  974  brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/f2a764ef944b1080be64bd88dca9a1d80130c558/Formula/python.rb
-  975  brew switch python 3.6.5_1
-  976  python3 --version
+python3 --version
+brew unlink python
+brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/f2a764ef944b1080be64bd88dca9a1d80130c558/Formula/python.rb
+brew switch python 3.6.5_1
+python3 --version
   977  pwd
   978  history
   979  virtualenv -p python3.6 ~/.virtualenvs/p36
