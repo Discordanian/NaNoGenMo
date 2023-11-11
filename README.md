@@ -1,6 +1,7 @@
 NaNoGenMo
 ========
 
+```text
 python3 --version
 mkdir ~/.virtualenvs
 pwd
@@ -11,8 +12,9 @@ brew unlink python
 brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/f2a764ef944b1080be64bd88dca9a1d80130c558/Formula/python.rb
 brew switch python 3.6.5_1
 python3 --version
-  977  pwd
-  978  history
-  979  virtualenv -p python3.6 ~/.virtualenvs/p36
-  980  pwd
-  981  ls ..
+pwd
+history
+virtualenv -p python3.6 ~/.virtualenvs/p36
+pwd
+ls ..
+```
