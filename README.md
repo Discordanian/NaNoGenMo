@@ -1,7 +1,7 @@
 NaNoGenMo
 ========
 
-```text
+```bash
 python3 --version
 mkdir ~/.virtualenvs
 pwd
