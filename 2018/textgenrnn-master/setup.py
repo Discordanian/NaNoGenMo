@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-long_description = '''
+long_description = """
 Easily train your own text-generating neural network of
 any size and complexity on any text dataset with a few lines
 of code, or quickly train on a text using a pretrained model.
@@ -20,24 +20,24 @@ opposed to normal LSTM implementations.
 - Able to train the model using contextual labels,
 allowing it to learn faster and produce better results in some cases.
 - Able to generate text interactively for customized stories.
-'''
+"""
 
 
 setup(
-    name='textgenrnn',
-    packages=['textgenrnn'],  # this must be the same as the name above
-    version='1.4.1',
-    description='Easily train your own text-generating neural network ' \
-    'of any size and complexity',
+    name="textgenrnn",
+    packages=["textgenrnn"],  # this must be the same as the name above
+    version="1.4.1",
+    description="Easily train your own text-generating neural network "
+    "of any size and complexity",
     long_description=long_description,
-    long_description_content_type='text/markdown',
-    author='Max Woolf',
-    author_email='max@minimaxir.com',
-    url='https://github.com/minimaxir/textgenrnn',
-    keywords=['deep learning', 'tensorflow', 'keras', 'text generation'],
+    long_description_content_type="text/markdown",
+    author="Max Woolf",
+    author_email="max@minimaxir.com",
+    url="https://github.com/minimaxir/textgenrnn",
+    keywords=["deep learning", "tensorflow", "keras", "text generation"],
     classifiers=[],
-    license='MIT',
-    python_requires='>=3',
+    license="MIT",
+    python_requires=">=3",
     include_package_data=True,
-    install_requires=['keras>=2.1.5', 'h5py', 'scikit-learn']
+    install_requires=["keras>=2.1.5", "h5py", "scikit-learn"],
 )
