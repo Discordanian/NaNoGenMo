@@ -1,5 +1,4 @@
-NaNoGenMo
-========
+# NaNoGenMo
 
 ```bash
 python3 --version
