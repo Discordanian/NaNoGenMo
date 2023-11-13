@@ -17,3 +17,6 @@ virtualenv -p python3.6 ~/.virtualenvs/p36
 pwd
 ls ..
 ```
+
+## 2018
+Original idea was to  haev a correspondance based story.  A bit like Griffin and Sabine
