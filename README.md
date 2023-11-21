@@ -1,6 +1,5 @@
 # NaNoGenMo
 
-
 ```bash
 python3 --version
 mkdir ~/.virtualenvs
@@ -19,8 +18,10 @@ pwd
 ls ..
 ```
 
+
 ## 2018
 Original idea was to  haev a correspondance based story.  A bit like Griffin and Sabine
+
 
 ## 2023
 TODO:  Delete  Srsly
