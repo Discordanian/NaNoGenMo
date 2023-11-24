@@ -1,5 +1,7 @@
 # NaNoGenMo
 
+## Using Python v3.6
+
 ```bash
 python3 --version
 mkdir ~/.virtualenvs
